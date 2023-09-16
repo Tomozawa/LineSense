@@ -11880,13 +11880,11 @@ R2 3 2 {val-val*var/100}
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+12V" urn="urn:adsk.eagle:symbol:26931/1" library_version="1">
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11903,10 +11901,10 @@ R2 3 2 {val-val*var/100}
 </device>
 </devices>
 </deviceset>
-<deviceset name="+12V" urn="urn:adsk.eagle:component:26959/1" prefix="P+" library_version="1">
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="+12V" x="0" y="0"/>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -13416,19 +13414,16 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 </classes>
 <parts>
 <part name="IC1" library="SamacSys_Parts" deviceset="NJM2904M-TE1" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="500k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="100k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="560n"/>
 <part name="L1" library="SamacSys_Parts" deviceset="CBC2518T470K" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="Q2" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="Q3" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
-<part name="Q4" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.6k"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="620"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="68"/>
 <part name="D1" library="SamacSys_Parts" deviceset="PMEG6010CEGWX" device=""/>
@@ -13437,20 +13432,18 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="1M"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="8.2"/>
 <part name="Q5" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
 <part name="Q6" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="7.5k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
 <part name="LED1" library="SamacSys_Parts" deviceset="XZCB25X109FS" device=""/>
 <part name="IC2" library="SamacSys_Parts" deviceset="NE555D" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13k"/>
@@ -13464,16 +13457,16 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="SamacSys_Parts" deviceset="1744426-4" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="220u"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
@@ -13543,18 +13536,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="135.89" y="57.15" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="135.89" y="54.61" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="Q4" gate="G$1" x="127" y="33.02" smashed="yes" rot="MR0">
-<attribute name="NAME" x="113.03" y="34.29" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="113.03" y="31.75" size="1.778" layer="96" rot="MR0" align="center-left"/>
-</instance>
-<instance part="R8" gate="G$1" x="132.08" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="36.83" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R9" gate="G$1" x="132.08" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="21.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="21.59" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C4" gate="G$1" x="104.14" y="71.12" smashed="yes">
 <attribute name="NAME" x="105.664" y="71.501" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.664" y="66.421" size="1.778" layer="96"/>
@@ -13581,12 +13562,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 </instance>
 <instance part="GND5" gate="1" x="104.14" y="63.5" smashed="yes">
 <attribute name="VALUE" x="101.6" y="60.96" size="1.778" layer="96"/>
-</instance>
-<instance part="GND6" gate="1" x="116.84" y="22.86" smashed="yes">
-<attribute name="VALUE" x="114.3" y="20.32" size="1.778" layer="96"/>
-</instance>
-<instance part="GND7" gate="1" x="132.08" y="17.78" smashed="yes">
-<attribute name="VALUE" x="129.54" y="15.24" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="22.86" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="28.829" y="90.17" size="1.778" layer="95" rot="MR90"/>
@@ -13740,17 +13715,12 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
-<wire x1="114.3" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="C"/>
-<wire x1="116.84" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="40.64" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<junction x="116.84" y="55.88"/>
+<wire x1="114.3" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIG_OUT" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="E"/>
-<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="48.26" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <junction x="132.08" y="45.72"/>
@@ -13767,17 +13737,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="165.1" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
 <label x="106.68" y="165.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="35.56" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="B"/>
-<wire x1="132.08" y1="33.02" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="127" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<junction x="132.08" y="33.02"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -13855,14 +13814,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="G$1" pin="E"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
@@ -13892,19 +13843,19 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <wire x1="22.86" y1="86.36" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+5V" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="V+"/>
 <wire x1="96.52" y1="58.42" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="1" pin="+12V"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
 <junction x="96.52" y="73.66"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="+12V"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="81.28" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
@@ -13913,7 +13864,7 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <segment>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <wire x1="27.94" y1="73.66" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="+12V"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="C8" gate="G$1" pin="+"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
@@ -13924,13 +13875,13 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="P+8" gate="1" pin="+12V"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
 <junction x="88.9" y="167.64"/>
 </segment>
 <segment>
-<pinref part="P+1" gate="1" pin="+12V"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -14176,10 +14127,10 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+5V" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<pinref part="P+5" gate="1" pin="+12V"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
@@ -14188,14 +14139,14 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <junction x="147.32" y="99.06"/>
-<pinref part="P+6" gate="1" pin="+12V"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="154.94" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="106.68" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <junction x="154.94" y="99.06"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="P+7" gate="1" pin="+12V"/>
+<pinref part="P+7" gate="1" pin="+5V"/>
 <junction x="0" y="101.6"/>
 <wire x1="0" y1="99.06" x2="0" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="+"/>
