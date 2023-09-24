@@ -13289,7 +13289,7 @@ Source:
 </class>
 </classes>
 <parts>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="500k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="100k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="15n"/>
