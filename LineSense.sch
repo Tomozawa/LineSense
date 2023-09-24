@@ -161,34 +161,6 @@
 <library name="SamacSys_Parts">
 <description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOP65P400X100-8N">
-<description>&lt;b&gt;MSOP8 (TVSP8)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.95" y="0.975" dx="1.1" dy="0.45" layer="1"/>
-<smd name="2" x="-1.95" y="0.325" dx="1.1" dy="0.45" layer="1"/>
-<smd name="3" x="-1.95" y="-0.325" dx="1.1" dy="0.45" layer="1"/>
-<smd name="4" x="-1.95" y="-0.975" dx="1.1" dy="0.45" layer="1"/>
-<smd name="5" x="1.95" y="-0.975" dx="1.1" dy="0.45" layer="1"/>
-<smd name="6" x="1.95" y="-0.325" dx="1.1" dy="0.45" layer="1"/>
-<smd name="7" x="1.95" y="0.325" dx="1.1" dy="0.45" layer="1"/>
-<smd name="8" x="1.95" y="0.975" dx="1.1" dy="0.45" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.05" layer="51"/>
-<wire x1="2.75" y1="1.75" x2="2.75" y2="-1.75" width="0.05" layer="51"/>
-<wire x1="2.75" y1="-1.75" x2="-2.75" y2="-1.75" width="0.05" layer="51"/>
-<wire x1="-2.75" y1="-1.75" x2="-2.75" y2="1.75" width="0.05" layer="51"/>
-<wire x1="-1.4" y1="1.45" x2="1.4" y2="1.45" width="0.1" layer="51"/>
-<wire x1="1.4" y1="1.45" x2="1.4" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="1.4" y1="-1.45" x2="-1.4" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="-1.45" x2="-1.4" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="0.8" x2="-0.75" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-1.05" y1="1.45" x2="1.05" y2="1.45" width="0.2" layer="21"/>
-<wire x1="1.05" y1="1.45" x2="1.05" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="1.05" y1="-1.45" x2="-1.05" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="-1.05" y1="-1.45" x2="-1.05" y2="1.45" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="1.55" x2="-1.4" y2="1.55" width="0.2" layer="21"/>
-</package>
 <package name="SSM3J334RLF">
 <description>&lt;b&gt;2-3Z1S&lt;/b&gt;&lt;br&gt;
 </description>
@@ -209,45 +181,6 @@
 <wire x1="-0.95" y1="-2.1" x2="-0.95" y2="-2" width="0.1" layer="21" curve="180"/>
 <wire x1="-0.95" y1="-2" x2="-0.95" y2="-2" width="0.1" layer="21"/>
 <wire x1="-0.95" y1="-2" x2="-0.95" y2="-2.1" width="0.1" layer="21" curve="180"/>
-</package>
-<package name="INDC2518X200N">
-<description>&lt;b&gt;CB C2518&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.15" y="0" dx="2" dy="1.15" layer="1" rot="R90"/>
-<smd name="2" x="1.15" y="0" dx="2" dy="1.15" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.975" y1="1.25" x2="1.975" y2="1.25" width="0.05" layer="51"/>
-<wire x1="1.975" y1="1.25" x2="1.975" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="1.975" y1="-1.25" x2="-1.975" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="-1.975" y1="-1.25" x2="-1.975" y2="1.25" width="0.05" layer="51"/>
-<wire x1="-1.25" y1="0.9" x2="1.25" y2="0.9" width="0.1" layer="51"/>
-<wire x1="1.25" y1="0.9" x2="1.25" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-0.9" x2="-1.25" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-0.9" x2="-1.25" y2="0.9" width="0.1" layer="51"/>
-<wire x1="0" y1="0.8" x2="0" y2="-0.8" width="0.2" layer="21"/>
-</package>
-<package name="PMEG6010CEGWX">
-<description>&lt;b&gt;SOD123_2023-1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.635" y="0" dx="1.22" dy="0.91" layer="1" rot="R90"/>
-<smd name="2" x="1.635" y="0" dx="1.22" dy="0.91" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.337" y1="0.8" x2="1.338" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.338" y1="0.8" x2="1.338" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.338" y1="-0.8" x2="-1.337" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.337" y1="-0.8" x2="-1.337" y2="0.8" width="0.1" layer="51"/>
-<wire x1="-3.09" y1="1.8" x2="3.09" y2="1.8" width="0.1" layer="51"/>
-<wire x1="3.09" y1="1.8" x2="3.09" y2="-1.8" width="0.1" layer="51"/>
-<wire x1="3.09" y1="-1.8" x2="-3.09" y2="-1.8" width="0.1" layer="51"/>
-<wire x1="-3.09" y1="-1.8" x2="-3.09" y2="1.8" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="XZCB25X109FS">
 <description>&lt;b&gt;XZCB25X109FS-3&lt;/b&gt;&lt;br&gt;
@@ -299,81 +232,53 @@
 <wire x1="-1.625" y1="-2.565" x2="-1.625" y2="2.565" width="0.2" layer="21"/>
 <wire x1="-3.525" y1="2.58" x2="-1.975" y2="2.58" width="0.2" layer="21"/>
 </package>
-<package name="17444264">
-<description>&lt;b&gt;1744426-4-2&lt;/b&gt;&lt;br&gt;
+<package name="SOIC127P680X200-8N">
+<description>&lt;b&gt;DMP8&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5"/>
-<pad name="2" x="-2.5" y="0" drill="1" diameter="1.5"/>
-<pad name="3" x="-5" y="0" drill="1" diameter="1.5"/>
-<pad name="4" x="-7.5" y="0" drill="1" diameter="1.5"/>
-<hole x="-3.75" y="6.5" drill="3.51"/>
-<text x="-3.75" y="2.575" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-3.75" y="2.575" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="2.5" y1="9.2" x2="-10" y2="9.2" width="0.2" layer="51"/>
-<wire x1="-10" y1="9.2" x2="-10" y2="-3.4" width="0.2" layer="51"/>
-<wire x1="-10" y1="-3.4" x2="2.5" y2="-3.4" width="0.2" layer="51"/>
-<wire x1="2.5" y1="-3.4" x2="2.5" y2="9.2" width="0.2" layer="51"/>
-<wire x1="2.5" y1="9.2" x2="-10" y2="9.2" width="0.1" layer="21"/>
-<wire x1="-10" y1="9.2" x2="-10" y2="-3.4" width="0.1" layer="21"/>
-<wire x1="-10" y1="-3.4" x2="2.5" y2="-3.4" width="0.1" layer="21"/>
-<wire x1="2.5" y1="-3.4" x2="2.5" y2="9.2" width="0.1" layer="21"/>
-<wire x1="3.5" y1="10.2" x2="-11" y2="10.2" width="0.1" layer="51"/>
-<wire x1="-11" y1="10.2" x2="-11" y2="-5.05" width="0.1" layer="51"/>
-<wire x1="-11" y1="-5.05" x2="3.5" y2="-5.05" width="0.1" layer="51"/>
-<wire x1="3.5" y1="-5.05" x2="3.5" y2="10.2" width="0.1" layer="51"/>
-<wire x1="0.1" y1="-4" x2="0.1" y2="-4" width="0.2" layer="21"/>
-<wire x1="0.1" y1="-4" x2="-0.1" y2="-4" width="0.2" layer="21" curve="180"/>
-<wire x1="-0.1" y1="-4" x2="-0.1" y2="-4" width="0.2" layer="21"/>
-<wire x1="-0.1" y1="-4" x2="0.1" y2="-4" width="0.2" layer="21" curve="180"/>
+<smd name="1" x="-3.212" y="1.905" dx="1.425" dy="0.6" layer="1"/>
+<smd name="2" x="-3.212" y="0.635" dx="1.425" dy="0.6" layer="1"/>
+<smd name="3" x="-3.212" y="-0.635" dx="1.425" dy="0.6" layer="1"/>
+<smd name="4" x="-3.212" y="-1.905" dx="1.425" dy="0.6" layer="1"/>
+<smd name="5" x="3.212" y="-1.905" dx="1.425" dy="0.6" layer="1"/>
+<smd name="6" x="3.212" y="-0.635" dx="1.425" dy="0.6" layer="1"/>
+<smd name="7" x="3.212" y="0.635" dx="1.425" dy="0.6" layer="1"/>
+<smd name="8" x="3.212" y="1.905" dx="1.425" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.175" y1="2.9" x2="4.175" y2="2.9" width="0.05" layer="51"/>
+<wire x1="4.175" y1="2.9" x2="4.175" y2="-2.9" width="0.05" layer="51"/>
+<wire x1="4.175" y1="-2.9" x2="-4.175" y2="-2.9" width="0.05" layer="51"/>
+<wire x1="-4.175" y1="-2.9" x2="-4.175" y2="2.9" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="1.23" x2="-1.23" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="2.5" x2="2.15" y2="2.5" width="0.2" layer="21"/>
+<wire x1="2.15" y1="2.5" x2="2.15" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="2.15" y1="-2.5" x2="-2.15" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-2.5" x2="-2.15" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-3.925" y1="2.555" x2="-2.5" y2="2.555" width="0.2" layer="21"/>
 </package>
-<package name="EEE1AA101SP">
-<description>&lt;b&gt;SMD_Lytic_D&lt;/b&gt;&lt;br&gt;
+<package name="SOT-89-3">
+<description>&lt;b&gt;SOT-89-3&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
-<smd name="2" x="2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
-<text x="-0.425" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.425" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.75" y1="4.3" x2="4.9" y2="4.3" width="0.05" layer="51"/>
-<wire x1="4.9" y1="4.3" x2="4.9" y2="-4.3" width="0.05" layer="51"/>
-<wire x1="4.9" y1="-4.3" x2="-5.75" y2="-4.3" width="0.05" layer="51"/>
-<wire x1="-5.75" y1="-4.3" x2="-5.75" y2="4.3" width="0.05" layer="51"/>
-<wire x1="-4.875" y1="0" x2="-4.875" y2="0" width="0.05" layer="21"/>
-<wire x1="-4.875" y1="0" x2="-4.825" y2="0" width="0.05" layer="21" curve="180"/>
-<wire x1="-4.825" y1="0" x2="-4.825" y2="0" width="0.05" layer="21"/>
-<wire x1="-4.825" y1="0" x2="-4.875" y2="0" width="0.05" layer="21" curve="180"/>
-<wire x1="-3.3" y1="1.5" x2="-1.5" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="3.3" x2="3.3" y2="3.3" width="0.1" layer="51"/>
-<wire x1="3.3" y1="3.3" x2="3.3" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="3.3" y1="-3.3" x2="-1.5" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-3.3" x2="-3.3" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="-1.5" x2="-3.3" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="1.5" x2="-1.5" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="1.5" x2="-1.5" y2="3.3" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="3.3" x2="3.3" y2="3.3" width="0.2" layer="21"/>
-<wire x1="3.3" y1="3.3" x2="3.3" y2="3.3" width="0.2" layer="21"/>
-<wire x1="3.3" y1="3.3" x2="3.3" y2="1.5" width="0.2" layer="21"/>
-<wire x1="-3.3" y1="-1.5" x2="-1.5" y2="-3.3" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="-3.3" x2="3.3" y2="-3.3" width="0.2" layer="21"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.5" width="0.2" layer="21"/>
+<smd name="1" x="-1.5" y="-1.65" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-1.3" dx="2.2" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.5" y="-1.65" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="0" y="1.3" dx="3" dy="2" layer="1" rot="R90"/>
+<text x="-0.304" y="0.074" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.304" y="0.074" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.25" y1="1.5" x2="2.25" y2="1.5" width="0.2" layer="51"/>
+<wire x1="2.25" y1="1.5" x2="2.25" y2="-1" width="0.2" layer="51"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.2" layer="51"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1.5" width="0.2" layer="51"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1.5" width="0.2" layer="21"/>
+<wire x1="2.25" y1="1.5" x2="2.25" y2="-1" width="0.2" layer="21"/>
+<circle x="-1.477" y="-2.829" radius="0.06723125" width="0.2" layer="25"/>
 </package>
 </packages>
 <symbols>
-<symbol name="NJM2904M-TE1">
-<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-10.16" x2="33.02" y2="2.54" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="A_OUTPUT" x="0" y="0" length="middle"/>
-<pin name="A-INPUT" x="0" y="-2.54" length="middle"/>
-<pin name="A+INPUT" x="0" y="-5.08" length="middle"/>
-<pin name="V-" x="0" y="-7.62" length="middle"/>
-<pin name="V+" x="38.1" y="0" length="middle" rot="R180"/>
-<pin name="B_OUTPUT" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="B-INPUT" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="B+INPUT" x="38.1" y="-7.62" length="middle" rot="R180"/>
-</symbol>
 <symbol name="2SC2712-GR,LF">
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
 <wire x1="7.62" y1="1.27" x2="10.16" y2="3.81" width="0.254" layer="94"/>
@@ -391,34 +296,6 @@
 <vertex x="8.382" y="-2.54"/>
 <vertex x="8.89" y="-2.032"/>
 <vertex x="9.398" y="-3.048"/>
-</polygon>
-</symbol>
-<symbol name="CBC2518T470K">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="PMEG6010CEGWX">
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="8.636" y2="2.54" width="0.254" layer="94"/>
-<wire x1="8.636" y1="1.524" x2="8.636" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="6.604" y1="-1.524" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
-<text x="12.7" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="12.7" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="2.54" y="0" visible="pad" length="short"/>
-<pin name="A" x="17.78" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="0"/>
-<vertex x="12.7" y="2.54"/>
-<vertex x="12.7" y="-2.54"/>
 </polygon>
 </symbol>
 <symbol name="XZCB25X109FS">
@@ -463,73 +340,36 @@
 <pin name="THRESHOLD" x="45.72" y="-5.08" length="middle" rot="R180"/>
 <pin name="CONTROL_VOLTAGE" x="45.72" y="-7.62" length="middle" rot="R180"/>
 </symbol>
-<symbol name="1744426-4">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<symbol name="NJM2904M">
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-10.16" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="-7.62" length="middle"/>
-<pin name="2" x="0" y="-5.08" length="middle"/>
-<pin name="3" x="0" y="-2.54" length="middle"/>
-<pin name="4" x="0" y="0" length="middle"/>
+<text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="A_OUTPUT" x="0" y="0" length="middle"/>
+<pin name="A-INPUT" x="0" y="-2.54" length="middle"/>
+<pin name="A+INPUT" x="0" y="-5.08" length="middle"/>
+<pin name="V-" x="0" y="-7.62" length="middle"/>
+<pin name="V+" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="B_OUTPUT" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="B-INPUT" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="B+INPUT" x="38.1" y="-7.62" length="middle" rot="R180"/>
 </symbol>
-<symbol name="EEE-HA1E220P">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
-<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="+" x="0" y="0" visible="pad" length="short"/>
-<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="2.54"/>
-<vertex x="7.62" y="-2.54"/>
-<vertex x="6.858" y="-2.54"/>
-<vertex x="6.858" y="2.54"/>
-</polygon>
+<symbol name="NJM78L05UA-TE1">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="OUT" x="0" y="0" length="middle"/>
+<pin name="GND_1" x="0" y="-2.54" length="middle"/>
+<pin name="IN" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="GND_2" x="30.48" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NJM2904M-TE1" prefix="IC">
-<description>&lt;b&gt;NJM2904D Series 0.5 V/us Surface Mount Dual Operational Amplifier - DMP-8&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com//NJM2904M-TE1.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="NJM2904M-TE1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP65P400X100-8N">
-<connects>
-<connect gate="G$1" pin="A+INPUT" pad="3"/>
-<connect gate="G$1" pin="A-INPUT" pad="2"/>
-<connect gate="G$1" pin="A_OUTPUT" pad="1"/>
-<connect gate="G$1" pin="B+INPUT" pad="5"/>
-<connect gate="G$1" pin="B-INPUT" pad="6"/>
-<connect gate="G$1" pin="B_OUTPUT" pad="7"/>
-<connect gate="G$1" pin="V+" pad="8"/>
-<connect gate="G$1" pin="V-" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="NJM2904D Series 0.5 V/us Surface Mount Dual Operational Amplifier - DMP-8" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="New Japan Radio" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NJM2904M-TE1" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="513-NJM2904M-TE1" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NJR/NJM2904M-TE1?qs=7x5O%252BBkfEwvY2wzmxbVQ3A%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2SC2712-GR,LF" prefix="Q">
 <description>&lt;b&gt;Bipolar Transistors - BJT Transistor Lo Freq 0.15A 50V&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://toshiba.semicon-storage.com/info/docget.jsp?did=19227&amp;prodName=2SC2712"&gt; Datasheet &lt;/a&gt;</description>
@@ -553,60 +393,6 @@ Source: &lt;a href="http://toshiba.semicon-storage.com/info/docget.jsp?did=19227
 <attribute name="MANUFACTURER_PART_NUMBER" value="2SC2712-GR,LF" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="757-2SC2712-GRLF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Toshiba/2SC2712-GRLF?qs=OLJpxlzHOSROHaH%2Fh9sb9g%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CBC2518T470K" prefix="L">
-<description>&lt;b&gt;TAIYO YUDEN - CBC2518T470K - INDUCTOR, 47UH, 240mA, 10%, 12MHZ, SMD&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.com/datasheet/2/396/wound02_e-13113-1206718.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CBC2518T470K" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDC2518X200N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="TAIYO YUDEN - CBC2518T470K - INDUCTOR, 47UH, 240mA, 10%, 12MHZ, SMD" constant="no"/>
-<attribute name="HEIGHT" value="2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CBC2518T470K" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="963-CBC2518T470K" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/CBC2518T470K?qs=I6KAKw0tg2ymSohK0QVyZg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PMEG6010CEGWX" prefix="D">
-<description>&lt;b&gt;NEXPERIA - PMEG6010CEGWX - SCHOTTKY RECT, AEC-Q101, 60V, SOD-123&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PMEG6010CEGW.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="PMEG6010CEGWX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PMEG6010CEGWX">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="PMEG6010CEGWX" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/pmeg6010cegwx/nexperia?region=europe" constant="no"/>
-<attribute name="DESCRIPTION" value="NEXPERIA - PMEG6010CEGWX - SCHOTTKY RECT, AEC-Q101, 60V, SOD-123" constant="no"/>
-<attribute name="HEIGHT" value="1.3mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMEG6010CEGWX" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="841-PMEG6010CEGWX" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG6010CEGWX?qs=EO%252B2iqeaG01UFtX9P5mUZA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -672,57 +458,63 @@ Source: &lt;a href="https://4donline.ihs.com/images/VipMasterIC/IC/FAIR/FAIRS200
 </device>
 </devices>
 </deviceset>
-<deviceset name="1744426-4" prefix="J">
-<description>&lt;b&gt;Headers &amp; Wire Housings Header Housing Assy EP 2.5 RA, 4 Pos.&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer Drawing1744426D2pdfEnglishENG_CD_1744426_D2.pdf1744426-4"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="NJM2904M" prefix="IC">
+<description>&lt;b&gt;IC OPAMP GP 600KHZ 8DMP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-316368.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="1744426-4" x="0" y="0"/>
+<gate name="G$1" symbol="NJM2904M" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="17444264">
+<device name="" package="SOIC127P680X200-8N">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="A+INPUT" pad="3"/>
+<connect gate="G$1" pin="A-INPUT" pad="2"/>
+<connect gate="G$1" pin="A_OUTPUT" pad="1"/>
+<connect gate="G$1" pin="B+INPUT" pad="5"/>
+<connect gate="G$1" pin="B-INPUT" pad="6"/>
+<connect gate="G$1" pin="B_OUTPUT" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="1744426-4" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1744426-4/te-connectivity?region=nac" constant="no"/>
-<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings Header Housing Assy EP 2.5 RA, 4 Pos." constant="no"/>
-<attribute name="HEIGHT" value="7.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1744426-4" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-1744426-4" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-4?qs=IGPQaF7TU6toTieyWkjyEQ%3D%3D" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="IC OPAMP GP 600KHZ 8DMP" constant="no"/>
+<attribute name="HEIGHT" value="2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="New Japan Radio" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NJM2904M" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="513-NJM2904M" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NJR/NJM2904M?qs=HYyrw03vwLEPq1p%252B8%2FBLbA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EEE-HA1E220P" prefix="C">
-<description>&lt;b&gt;Cap Aluminum Lytic 22uF 25V 20% (6.3 X 5.4mm) SMD 55mA 1000h 105C Automotive T/R&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="NJM78L05UA-TE1" prefix="IC">
+<description>&lt;b&gt;Standard Regulator Pos 5V 0.1A New Japan Radio NJM78Lxx NJM78L05UA-TE1, Single Linear Voltage Regulator, 100mA 5 V, 3-Pin SOT-89&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/7139502"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="EEE-HA1E220P" x="0" y="0"/>
+<gate name="G$1" symbol="NJM78L05UA-TE1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="EEE1AA101SP">
+<device name="" package="SOT-89-3">
 <connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
+<connect gate="G$1" pin="GND_1" pad="2"/>
+<connect gate="G$1" pin="GND_2" pad="4"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="EEE-HA1E220P" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eee-ha1e220p/panasonic?region=nac" constant="no"/>
-<attribute name="DESCRIPTION" value="Cap Aluminum Lytic 22uF 25V 20% (6.3 X 5.4mm) SMD 55mA 1000h 105C Automotive T/R" constant="no"/>
-<attribute name="HEIGHT" value="7.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEE-HA1E220P" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-EEE-HA1E220P" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-HA1E220P?qs=ECX%252BeLvXSgTvD4oitu7YQg%3D%3D" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Standard Regulator Pos 5V 0.1A New Japan Radio NJM78Lxx NJM78L05UA-TE1, Single Linear Voltage Regulator, 100mA 5 V, 3-Pin SOT-89" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="New Japan Radio" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NJM78L05UA-TE1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="513-NJM78L05UA-TE1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NJR/NJM78L05UA-TE1?qs=7Wjyd1RpqPrEwMC6ffZWiw%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -11888,6 +11680,12 @@ R2 3 2 {val-val*var/100}
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -11907,6 +11705,19 @@ R2 3 2 {val-val*var/100}
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -13405,6 +13216,69 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 </deviceset>
 </devicesets>
 </library>
+<library name="jst-xh">
+<description>&lt;b&gt;JST Connectors XH Series&lt;/b&gt;
+&lt;p&gt;
+&lt;author&gt;Created by yuhki50@gmail.com&lt;/author&gt;
+&lt;/p&gt;</description>
+<packages>
+<package name="S3B-XH-A">
+<wire x1="-4.95" y1="9.2" x2="-4.95" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="-4.95" y1="9.2" x2="4.95" y2="9.2" width="0.1524" layer="21"/>
+<pad name="1" x="2.5" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<text x="-4.95" y="10" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.95" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="4.95" y1="9.2" x2="4.95" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="-4.95" y1="-2.3" x2="-4.15" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="-4.15" y1="-2.3" x2="-4.15" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-4.15" y1="2.2" x2="4.15" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="4.15" y1="2.2" x2="4.15" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="4.15" y1="-2.3" x2="4.95" y2="-2.3" width="0.1524" layer="21"/>
+<pad name="3" x="-2.5" y="0" drill="1.016" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CON-1X3">
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="0" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S3B-XH-A" prefix="CN" uservalue="yes">
+<description>&lt;b&gt;Wire-to-Board 2.5mm pitch side mount connector&lt;/b&gt;
+&lt;p&gt;
+Source:
+&lt;ul&gt;
+&lt;li&gt;http://www.jst-mfg.com/product/pdf/jpn/XH.pdf&lt;/li&gt;
+&lt;li&gt;http://www.jst-mfg.com/product/detail.php?series=277&lt;/li&gt;
+&lt;ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CON-1X3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S3B-XH-A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13415,24 +13289,17 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SamacSys_Parts" deviceset="NJM2904M-TE1" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="500k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="100k"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="560n"/>
-<part name="L1" library="SamacSys_Parts" deviceset="CBC2518T470K" device=""/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="15n"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="Q2" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="Q3" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
 <part name="Q4" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.6k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="620"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="68"/>
-<part name="D1" library="SamacSys_Parts" deviceset="PMEG6010CEGWX" device=""/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13440,11 +13307,9 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="1M"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="6.8n"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="8.2"/>
@@ -13453,10 +13318,10 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="7.5k"/>
 <part name="LED1" library="SamacSys_Parts" deviceset="XZCB25X109FS" device=""/>
 <part name="IC2" library="SamacSys_Parts" deviceset="NE555D" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13k"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="15k"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.7n"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="10k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.5k"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.7k"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="100k"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10n"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10n"/>
@@ -13469,7 +13334,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="SamacSys_Parts" deviceset="1744426-4" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="220u"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13479,30 +13343,38 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="C8" library="SamacSys_Parts" deviceset="EEE-HA1E220P" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="SamacSys_Parts" deviceset="EEE-HA1E220P" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="Q1" library="original" deviceset="SFH_3410-1_2-Z" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220n"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="4.7u"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10u"/>
+<part name="CN1" library="jst-xh" deviceset="S3B-XH-A" device=""/>
+<part name="IC3" library="SamacSys_Parts" deviceset="NJM2904M" device=""/>
+<part name="IC1" library="SamacSys_Parts" deviceset="NJM78L05UA-TE1" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="56k"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-20.32" y="86.36" size="1.778" layer="95">CRGH2512J68R</text>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="58.42" y="58.42" smashed="yes">
-<attribute name="NAME" x="92.71" y="66.04" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="92.71" y="63.5" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="R1" gate="G$1" x="22.86" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.3614" y="102.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="26.162" y="102.87" size="1.778" layer="96" rot="R90"/>
@@ -13515,25 +13387,13 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="44.45" y="29.591" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="44.45" y="31.75" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C1" gate="G$1" x="-40.64" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="-42.164" y="68.199" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-42.164" y="73.279" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="L1" gate="G$1" x="-30.48" y="78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="-24.13" y="62.23" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="-26.67" y="62.23" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="C1" gate="G$1" x="-25.4" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="-26.924" y="68.199" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.924" y="73.279" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R6" gate="G$1" x="38.1" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.5986" y="52.07" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="34.798" y="52.07" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="Q2" gate="G$1" x="38.1" y="58.42" smashed="yes" rot="MR0">
-<attribute name="NAME" x="24.13" y="59.69" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="24.13" y="57.15" size="1.778" layer="96" rot="MR0" align="center-left"/>
-</instance>
-<instance part="R7" gate="G$1" x="48.26" y="58.42" smashed="yes">
-<attribute name="NAME" x="44.45" y="59.9186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="44.45" y="55.118" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="109.22" y="55.88" smashed="yes">
 <attribute name="NAME" x="105.41" y="57.3786" size="1.778" layer="95"/>
@@ -13543,35 +13403,24 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="135.89" y="57.15" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="135.89" y="54.61" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="Q4" gate="G$1" x="127" y="33.02" smashed="yes" rot="MR0">
-<attribute name="NAME" x="113.03" y="34.29" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="113.03" y="31.75" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<instance part="Q4" gate="G$1" x="127" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="113.03" y="26.67" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="113.03" y="24.13" size="1.778" layer="96" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R8" gate="G$1" x="132.08" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="36.83" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="132.08" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="132.08" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="21.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="21.59" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="132.08" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="13.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="13.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="104.14" y="71.12" smashed="yes">
 <attribute name="NAME" x="105.664" y="71.501" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.664" y="66.421" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="-17.78" y="81.28" smashed="yes">
-<attribute name="NAME" x="-21.59" y="82.7786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-21.59" y="77.978" size="1.778" layer="96"/>
-</instance>
-<instance part="D1" gate="G$1" x="-66.04" y="81.28" smashed="yes">
-<attribute name="NAME" x="-53.34" y="90.17" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-53.34" y="87.63" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="GND1" gate="1" x="-30.48" y="55.88" smashed="yes">
-<attribute name="VALUE" x="-33.02" y="53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="GND2" gate="1" x="-40.64" y="63.5" smashed="yes">
-<attribute name="VALUE" x="-43.18" y="60.96" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="-25.4" y="63.5" smashed="yes">
+<attribute name="VALUE" x="-27.94" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="22.86" y="83.82" smashed="yes">
 <attribute name="VALUE" x="20.32" y="81.28" size="1.778" layer="96"/>
@@ -13582,11 +13431,11 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <instance part="GND5" gate="1" x="104.14" y="63.5" smashed="yes">
 <attribute name="VALUE" x="101.6" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="116.84" y="22.86" smashed="yes">
-<attribute name="VALUE" x="114.3" y="20.32" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="116.84" y="15.24" smashed="yes">
+<attribute name="VALUE" x="114.3" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="132.08" y="17.78" smashed="yes">
-<attribute name="VALUE" x="129.54" y="15.24" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="132.08" y="10.16" smashed="yes">
+<attribute name="VALUE" x="129.54" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="22.86" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="28.829" y="90.17" size="1.778" layer="95" rot="MR90"/>
@@ -13596,17 +13445,11 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="27.559" y="115.824" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="32.639" y="115.824" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+1" gate="1" x="22.86" y="147.32" smashed="yes">
-<attribute name="VALUE" x="20.32" y="142.24" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P+2" gate="1" x="96.52" y="76.2" smashed="yes">
 <attribute name="VALUE" x="93.98" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+3" gate="1" x="132.08" y="91.44" smashed="yes">
 <attribute name="VALUE" x="129.54" y="86.36" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+4" gate="1" x="27.94" y="76.2" smashed="yes">
-<attribute name="VALUE" x="25.4" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R11" gate="G$1" x="43.18" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.6814" y="44.45" size="1.778" layer="95" rot="R90"/>
@@ -13615,12 +13458,8 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <instance part="GND10" gate="1" x="43.18" y="40.64" smashed="yes">
 <attribute name="VALUE" x="40.64" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="114.3" y="160.02" smashed="yes" rot="MR180">
-<attribute name="NAME" x="130.81" y="152.4" size="1.778" layer="95" rot="MR180" align="center-left"/>
-<attribute name="VALUE" x="130.81" y="154.94" size="1.778" layer="96" rot="MR180" align="center-left"/>
-</instance>
-<instance part="GND15" gate="1" x="114.3" y="157.48" smashed="yes">
-<attribute name="VALUE" x="111.76" y="154.94" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="114.3" y="160.02" smashed="yes">
+<attribute name="VALUE" x="111.76" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="88.9" y="165.1" smashed="yes">
 <attribute name="NAME" x="90.424" y="165.481" size="1.778" layer="95"/>
@@ -13640,34 +13479,20 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="31.75" y="118.11" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="34.29" y="115.57" size="1.778" layer="97"/>
 </instance>
-<instance part="TP4" gate="G$1" x="-40.64" y="83.82" smashed="yes">
-<attribute name="NAME" x="-41.91" y="85.09" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-39.37" y="82.55" size="1.778" layer="97"/>
+<instance part="TP4" gate="G$1" x="-25.4" y="83.82" smashed="yes">
+<attribute name="NAME" x="-26.67" y="85.09" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-24.13" y="82.55" size="1.778" layer="97"/>
 </instance>
-<instance part="TP5" gate="G$1" x="134.62" y="48.26" smashed="yes">
-<attribute name="NAME" x="133.35" y="49.53" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="135.89" y="46.99" size="1.778" layer="97"/>
-</instance>
-<instance part="C8" gate="G$1" x="5.08" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.43" y="59.69" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="8.89" y="59.69" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="TP5" gate="G$1" x="144.78" y="45.72" smashed="yes">
+<attribute name="NAME" x="143.51" y="46.99" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="146.05" y="44.45" size="1.778" layer="97"/>
 </instance>
 <instance part="C10" gate="G$1" x="144.78" y="78.74" smashed="yes">
 <attribute name="NAME" x="146.304" y="79.121" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.304" y="74.041" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="17.78" y="66.04" smashed="yes">
-<attribute name="NAME" x="19.304" y="66.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.304" y="61.341" size="1.778" layer="96"/>
-</instance>
 <instance part="GND18" gate="1" x="144.78" y="71.12" smashed="yes">
 <attribute name="VALUE" x="142.24" y="68.58" size="1.778" layer="96"/>
-</instance>
-<instance part="GND19" gate="1" x="17.78" y="58.42" smashed="yes">
-<attribute name="VALUE" x="15.24" y="55.88" size="1.778" layer="96"/>
-</instance>
-<instance part="GND20" gate="1" x="5.08" y="53.34" smashed="yes">
-<attribute name="VALUE" x="2.54" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="H1" gate="G$1" x="-60.96" y="27.94" smashed="yes">
 <attribute name="NAME" x="-58.928" y="28.5242" size="1.778" layer="95"/>
@@ -13681,24 +13506,66 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="15.24" y="140.97" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="17.78" y="140.97" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
+<instance part="R3" gate="G$1" x="-17.78" y="81.28" smashed="yes">
+<attribute name="NAME" x="-21.59" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-21.59" y="77.978" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="157.48" y="71.12" smashed="yes">
+<attribute name="VALUE" x="154.94" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="C9" gate="G$1" x="154.94" y="101.6" smashed="yes">
+<attribute name="NAME" x="156.464" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.464" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="88.9" y="101.6" smashed="yes">
+<attribute name="NAME" x="90.424" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.424" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="1" x="154.94" y="93.98" smashed="yes">
+<attribute name="VALUE" x="152.4" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="GND19" gate="1" x="88.9" y="93.98" smashed="yes">
+<attribute name="VALUE" x="86.36" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="P+4" gate="1" x="154.94" y="111.76" smashed="yes">
+<attribute name="VALUE" x="152.4" y="106.68" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+9" gate="1" x="88.9" y="111.76" smashed="yes">
+<attribute name="VALUE" x="86.36" y="106.68" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+1" gate="1" x="22.86" y="147.32" smashed="yes">
+<attribute name="VALUE" x="20.32" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C8" gate="G$1" x="157.48" y="78.74" smashed="yes">
+<attribute name="NAME" x="159.004" y="79.121" size="1.778" layer="95"/>
+<attribute name="VALUE" x="159.004" y="74.041" size="1.778" layer="96"/>
+</instance>
+<instance part="CN1" gate="G$1" x="121.92" y="165.1" smashed="yes" rot="MR180">
+<attribute name="NAME" x="118.11" y="158.75" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="118.11" y="172.72" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="IC3" gate="G$1" x="58.42" y="58.42" smashed="yes">
+<attribute name="NAME" x="92.71" y="66.04" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="92.71" y="63.5" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC1" gate="G$1" x="101.6" y="106.68" smashed="yes">
+<attribute name="NAME" x="128.27" y="114.3" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="128.27" y="111.76" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND23" gate="1" x="101.6" y="101.6" smashed="yes">
+<attribute name="VALUE" x="99.06" y="99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="GND24" gate="1" x="132.08" y="101.6" smashed="yes">
+<attribute name="VALUE" x="129.54" y="99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="R18" gate="G$1" x="137.16" y="43.18" smashed="yes">
+<attribute name="NAME" x="133.35" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="39.878" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="A_OUTPUT"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="B"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -13713,7 +13580,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="53.34" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="A-INPUT"/>
 <wire x1="38.1" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="S"/>
 <wire x1="43.18" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
@@ -13727,13 +13593,14 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="53.34" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="43.18" y="55.88"/>
+<pinref part="IC3" gate="G$1" pin="A-INPUT"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="B_OUTPUT"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="B_OUTPUT"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -13743,91 +13610,79 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <wire x1="114.3" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="116.84" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="40.64" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="33.02" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <junction x="116.84" y="55.88"/>
 </segment>
 </net>
 <net name="SIG_OUT" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="E"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="48.26" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<junction x="132.08" y="45.72"/>
-<wire x1="124.46" y1="45.72" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="B-INPUT"/>
-<wire x1="124.46" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="139.7" y="45.72" size="1.778" layer="95"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="134.62" y1="45.72" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
-<junction x="134.62" y="45.72"/>
+<wire x1="121.92" y1="165.1" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
+<label x="106.68" y="165.1" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="165.1" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
-<label x="106.68" y="165.1" size="1.778" layer="95"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="144.78" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
+<label x="149.86" y="43.18" size="1.778" layer="95"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
+<junction x="144.78" y="43.18"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="B-INPUT"/>
+<wire x1="96.52" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<label x="96.52" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="35.56" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="27.94" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="B"/>
-<wire x1="132.08" y1="33.02" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="127" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<junction x="132.08" y="33.02"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="81.28" x2="-40.64" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="81.28" x2="-30.48" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="73.66" x2="-40.64" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-40.64" y="81.28"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-30.48" y1="81.28" x2="-30.48" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-30.48" y="81.28"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="132.08" y1="25.4" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
+<junction x="132.08" y="25.4"/>
 </segment>
 </net>
 <net name="AMP_IN" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="-63.5" y1="81.28" x2="-68.58" y2="81.28" width="0.1524" layer="91"/>
-<label x="-68.58" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="B+INPUT"/>
 <wire x1="96.52" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
 <label x="96.52" y="48.26" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="B+INPUT"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="73.66" x2="-25.4" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-25.4" y="81.28"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="81.28" x2="-30.48" y2="81.28" width="0.1524" layer="91"/>
+<label x="-38.1" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PREAMP_OUT" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="81.28" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
 <label x="-15.24" y="78.74" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="E"/>
-<wire x1="27.94" y1="50.8" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="58.42" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <label x="10.16" y="38.1" size="1.778" layer="95"/>
 <wire x1="27.94" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
 <junction x="27.94" y="35.56"/>
+<wire x1="27.94" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="A_OUTPUT"/>
 </segment>
 </net>
 <net name="PREAMP_IN" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="A+INPUT"/>
 <wire x1="58.42" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="53.34" y="53.34" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="A+INPUT"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -13839,16 +13694,8 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="V-"/>
-<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -13867,10 +13714,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
@@ -13879,27 +13722,48 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C8" gate="G$1" pin="-"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="R10" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="86.36" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="1"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="121.92" y1="162.56" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="V-"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND_1"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND_2"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="V+"/>
 <wire x1="96.52" y1="58.42" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <junction x="96.52" y="73.66"/>
+<pinref part="IC3" gate="G$1" pin="V+"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="C"/>
@@ -13909,29 +13773,25 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <wire x1="132.08" y1="81.28" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
 <junction x="132.08" y="81.28"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="C"/>
-<wire x1="27.94" y1="73.66" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="C8" gate="G$1" pin="+"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="68.58" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<junction x="17.78" y="68.58"/>
-<junction x="27.94" y="68.58"/>
+<wire x1="144.78" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+<junction x="144.78" y="81.28"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <junction x="88.9" y="167.64"/>
+<pinref part="CN1" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="P+1" gate="1" pin="+12V"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="P+4" gate="1" pin="+12V"/>
+<wire x1="154.94" y1="109.22" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="154.94" y1="106.68" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<junction x="154.94" y="106.68"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -13955,6 +13815,31 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <wire x1="17.78" y1="93.98" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <junction x="22.86" y="99.06"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="104.14" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<wire x1="88.9" y1="106.68" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
+<junction x="88.9" y="106.68"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
+<wire x1="132.08" y1="48.26" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<junction x="132.08" y="43.18"/>
+<wire x1="132.08" y1="43.18" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -14046,10 +13931,6 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <attribute name="NAME" x="36.83" y="74.93" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="39.37" y="72.39" size="1.778" layer="97"/>
 </instance>
-<instance part="C12" gate="G$1" x="22.86" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.21" y="92.71" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="26.67" y="92.71" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
 <instance part="C13" gate="G$1" x="12.7" y="99.06" smashed="yes">
 <attribute name="NAME" x="14.224" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="14.224" y="94.361" size="1.778" layer="96"/>
@@ -14057,8 +13938,16 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <instance part="GND21" gate="1" x="12.7" y="91.44" smashed="yes">
 <attribute name="VALUE" x="10.16" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="22.86" y="86.36" smashed="yes">
-<attribute name="VALUE" x="20.32" y="83.82" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="22.86" y="91.44" smashed="yes">
+<attribute name="VALUE" x="20.32" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="C12" gate="G$1" x="22.86" y="99.06" smashed="yes">
+<attribute name="NAME" x="24.384" y="99.441" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.384" y="94.361" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="195.58" y="109.22" smashed="yes">
+<attribute name="NAME" x="191.77" y="110.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.77" y="105.918" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14128,6 +14017,9 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <wire x1="203.2" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
 <junction x="203.2" y="99.06"/>
 <junction x="200.66" y="99.06"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="109.22" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
+<junction x="200.66" y="104.14"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -14172,7 +14064,7 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="-"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -14198,11 +14090,11 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="P+7" gate="1" pin="+12V"/>
 <junction x="0" y="101.6"/>
 <wire x1="0" y1="99.06" x2="0" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="+"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 <junction x="12.7" y="101.6"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED_OUT" class="0">
@@ -14224,11 +14116,17 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <pinref part="R16" gate="G$1" pin="E"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="109.22" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<junction x="190.5" y="99.06"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,122.157,163.286,CN1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
