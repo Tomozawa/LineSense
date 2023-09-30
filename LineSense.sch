@@ -13443,7 +13443,7 @@ Source: &lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-6
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="8.2"/>
 <part name="Q5" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
 <part name="Q6" library="SamacSys_Parts" deviceset="2SC2712-GR,LF" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="LED1" library="SamacSys_Parts" deviceset="XZCB25X109FS" device=""/>
 <part name="IC2" library="SamacSys_Parts" deviceset="NE555D" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13k"/>
